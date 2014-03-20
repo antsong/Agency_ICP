@@ -2,3 +2,7 @@ F:\存量房\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.dll
 F:\存量房\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.pdb
 F:\存量房\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.dll
 F:\存量房\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.pdb
+C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.dll
+C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.pdb
+C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.dll
+C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.pdb

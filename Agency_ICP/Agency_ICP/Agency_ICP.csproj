@@ -60,6 +60,7 @@
     <Compile Include="App_Start\AuthorizeFilterAttribute.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\SaleEntrustController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -121,6 +122,7 @@
     <None Include="Doc\居间买卖合同.xlsx" />
     <None Include="Doc\居间买卖合同（11.28版）.docx" />
     <None Include="Doc\武汉市存量房买卖合同20120315.doc" />
+    <Content Include="Views\SaleEntrust\SaleEntrustList.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
