@@ -22,9 +22,21 @@ namespace Agency_ICP.Controllers
 
         public ActionResult Index()
         {
+            return RedirectToAction("SaleEntrustList");
+        }
+
+
+        public ActionResult SaleEntrustList()
+        {
 
             return View();
         }
 
+
+        public ActionResult SaleEntrustDetial(object id)
+        {
+            throw new Exception();
+            return View();
+        }
     }
 }
