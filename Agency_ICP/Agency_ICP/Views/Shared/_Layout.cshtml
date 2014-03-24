@@ -1,12 +1,100 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>@ViewBag.Title</title>
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
-    <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/Content/dist/css/bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/dist/css/bootstrap-theme.css")" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+        <script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    @RenderBody()
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/SaleEntrust/Index" class="navbar-brand" alt="Less">存量房
+                </a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/SaleEntrust/Index">语言特性</a>
+                    </li>
+
+                    <li>
+                        <a href="/SaleEntrust/Index">函数手册</a>
+                    </li>
+                    <li>
+                        <a href="#">用法</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                        <a href="#">注销登录<span class="glyphicon glyphicon-remove"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人资料 <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class="glyphicon glyphicon-star">Docs Repo</span></a> </li>
+                            <li><a href="#">Docs Issues</a> </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Less.js Repo</a> </li>
+                            <li><a href="#">Less.js Issues</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content">
+        <div class="container">
+            <h1>组件</h1>
+            <p>无数可复用的组件，包括图标，下拉菜单，导航，警告框，弹出框等更多功能。</p>
+
+        </div>
+    </div>
+
+    <div class="container bs-docs-container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar-menu">
+                    <a href="#userMeun" class="nav-header menu-first collapsed" data-toggle="collapse"><i class="icon-user-md icon-large"></i>用户管理</a>
+                    <ul id="userMeun" class="nav nav-list collapse menu-second">
+                        <li><a href="#"><i class="icon-user"></i>增加用户</a></li>
+                        <li><a href="#"><i class="icon-edit"></i>修改用户</a></li>
+                        <li><a href="#"><i class="icon-trash"></i>删除用户</a></li>
+                        <li><a href="#"><i class="icon-list"></i>用户列表</a></li>
+
+                    </ul>
+                    <a href="#articleMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><i class="icon-book icon-large"></i>文章管理</a>
+                    <ul id="articleMenu" class="nav nav-list collapse menu-second">
+                        <li><a href="#"><i class="icon-pencil"></i>添加文章</a></li>
+                        <li><a href="#"><i class="icon-list-alt"></i>文章列表</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9" role="main">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.js")" type="text/javascript"></script>
 </body>
 </html>

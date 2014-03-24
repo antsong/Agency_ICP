@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency_ICP", "Agency_ICP\Agency_ICP.csproj", "{9D882464-0D52-4C11-ACBF-1D4EB51CC695}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency_ICP_Cross", "Agency_ICP_Cross\Agency_ICP_Cross.csproj", "{4BB0B6BB-CAB3-4F84-A46A-55916CA9CFAF}"

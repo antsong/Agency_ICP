@@ -6,3 +6,8 @@ C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\bin\Debug\
 C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.pdb
 C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.dll
 C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.pdb
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.dll
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\bin\Debug\Agency_ICP_Cross.pdb
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.dll
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Cross\obj\Debug\Agency_ICP_Cross.pdb

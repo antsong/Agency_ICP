@@ -13,8 +13,7 @@ namespace Agency_ICP.App_Start
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
 
-            filterContext.HttpContext.Response.Write(@"<br />After Action Excute" + "\t " + Message);
-            base.OnActionExecuted(filterContext);
+            
         }
 
         //在Action执行前执行
@@ -72,15 +71,14 @@ namespace Agency_ICP.App_Start
         //在Result执行之后 
         public override void OnResultExecuted(ResultExecutedContext filterContext)
         {
-            filterContext.HttpContext.Response.Write(@"<br />After ViewResult Excute" + "\t " + Message);
-            base.OnResultExecuted(filterContext);
+            
         }
 
         //在Result执行之前
         public override void OnResultExecuting(ResultExecutingContext filterContext)
         {
-            filterContext.HttpContext.Response.Write(@"<br />Before ViewResult Excute" + "\t " + Message);
-            base.OnResultExecuting(filterContext);
+            //filterContext.HttpContext.Response.Write(@"<br />Before ViewResult Excute" + "\t " + Message);
+            //base.OnResultExecuting(filterContext);
         }
 
 

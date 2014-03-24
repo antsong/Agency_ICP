@@ -6,3 +6,8 @@ C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\bin\Debug\Ag
 C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\bin\Debug\Agency_ICP_Dal.pdb
 C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\obj\Debug\Agency_ICP_Dal.dll
 C:\Users\SONT\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\obj\Debug\Agency_ICP_Dal.pdb
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\bin\Debug\Agency_ICP_Dal.dll
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\bin\Debug\Agency_ICP_Dal.pdb
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\obj\Debug\Agency_ICP_Dal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\obj\Debug\Agency_ICP_Dal.dll
+C:\Users\Administrator\Documents\GitHub\Agency_ICP\Agency_ICP\Agency_ICP_Dal\obj\Debug\Agency_ICP_Dal.pdb
